@@ -110,6 +110,14 @@ describe("Test Supported Chains", function () {
   //   "shared/"
   // );
 
+  // Ethereum Mekong Testnet
+  verifyContract(
+    "0x247a8A599c99336dF37af1975661b32f7A26a88E",
+    "7078815900",
+    "Ethereum Mekong Testnet",
+    "shared/",
+  );
+
   verifyContract(
     "0x7ecedB5ca848e695ee8aB33cce9Ad1E1fe7865F8",
     "17000",
@@ -1349,6 +1357,22 @@ describe("Test Supported Chains", function () {
     "0xc3a9766e07754cC1894E5c0A2459d23A676dDD0D",
     "42766",
     "ZKFair Mainnet",
+    "shared/",
+  );
+
+  // Kroma Sepolia
+  verifyContract(
+    "0x4d5f06cC2A7d3a625C95D04Cfaec5AEb5eCfA33D",
+    "2358",
+    "Kroma Sepolia",
+    "shared/",
+  );
+
+  // Kroma
+  verifyContract(
+    "0x270236c25d28a2cd85ed9a1ef0b31835fb9e4ff6",
+    "255",
+    "Kroma",
     "shared/",
   );
 
